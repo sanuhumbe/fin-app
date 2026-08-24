@@ -16,22 +16,22 @@ Minimal Next.js (App Router) + TypeScript financial dashboard with full client-s
 
 ## Run it
 
-\`\`\`bash
+```bash
 npm install
 npm run dev
-\`\`\`
+```
 
 Visit http://localhost:3000
 
 ## Test
 
-\`\`\`bash
+```bash
 npm run test
-\`\`\`
+```
 
 ## File structure
 
-\`\`\`
+```
 src/
   app/
     layout.tsx          # root layout, wraps Providers
@@ -54,7 +54,7 @@ src/
 tests/
   money.test.ts
   transactions-store.test.ts
-\`\`\`
+```
 
 ## Money convention
 All amounts are stored and passed around as **integer cents**. Only convert to `Decimal`
