@@ -2,6 +2,8 @@
 
 Minimal Next.js (App Router) + TypeScript financial dashboard with full client-side CRUD.
 
+![Preview Text](assets/preview.png)
+
 ## Stack
 - Next.js 15 (App Router) + TypeScript (strict)
 - TanStack Query (provider wired, ready for real API)
